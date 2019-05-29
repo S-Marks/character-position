@@ -1,6 +1,6 @@
 var str = process.argv.slice(2).join("").split("");
 
-function countLetters(str) {
+function characterPosition(str) {
   var letters = {};
   for(var i in str) {
     var char = str[i];
@@ -12,4 +12,4 @@ function countLetters(str) {
   console.log(letters);
 };
 
-countLetters(str);
+characterPosition(str);
